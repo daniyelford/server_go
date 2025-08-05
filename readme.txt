@@ -1,5 +1,11 @@
 go build server.go
 ./server
+
+in git batsh
+ssh -R 80:192.168.1.50:8000 ssh.localhost.run
+
+
+or
 وارد پنل مودمت شو:
 
 تو مرورگر برو به: 192.168.1.1 یا 192.168.0.1
@@ -16,10 +22,11 @@ Port Forwarding یا Virtual Server
 
 External Port: 8000 (یا هرچی دوست داری)
 
-Internal IP: 192.168.1.51 ← آی‌پی سیستم خودت
+Internal IP: 192.168.1.51 ← آی‌پی سیستم
 
 Internal Port: 8000
 
 Protocol: TCP (یا All)
 
-ذخیره و ری‌استارت مودم (گاهی لازم نیست)
+ذخیره و ری‌استارت مودم 
+and buy vps and static ip
